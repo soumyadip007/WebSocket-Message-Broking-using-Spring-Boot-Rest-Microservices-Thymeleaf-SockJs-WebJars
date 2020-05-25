@@ -1,20 +1,17 @@
 package com.spring.microservices.model;
 
 public class UserResponse {
+   
+	String content;
 
-	private String content;
+    public UserResponse() {
+    }
 
-	public UserResponse(String string) {
-		this.content=string;
-	}
+    public String getContent() {
+        return content;
+    }
 
-	public String getContent() {
-		return content;
-	}
-
-	public void setContent(String content) {
-		this.content = content;
-	}
-	
-	
+    public UserResponse(String content) {
+        this.content = content;
+    }
 }
