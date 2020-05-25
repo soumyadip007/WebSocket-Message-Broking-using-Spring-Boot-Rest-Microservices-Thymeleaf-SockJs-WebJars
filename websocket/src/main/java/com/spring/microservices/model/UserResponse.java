@@ -4,7 +4,8 @@ public class UserResponse {
 
 	private String content;
 
-	public UserResponse() {
+	public UserResponse(String string) {
+		this.content=string;
 	}
 
 	public String getContent() {
