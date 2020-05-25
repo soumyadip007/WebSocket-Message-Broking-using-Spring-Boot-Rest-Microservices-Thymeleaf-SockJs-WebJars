@@ -3,7 +3,6 @@ package com.spring.microservices.controller;
 import org.springframework.messaging.handler.annotation.MessageMapping;
 import org.springframework.messaging.handler.annotation.SendTo;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
 
 import com.spring.microservices.model.User;
 import com.spring.microservices.model.UserResponse;
