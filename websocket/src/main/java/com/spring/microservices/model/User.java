@@ -2,18 +2,16 @@ package com.spring.microservices.model;
 
 public class User {
 
-	private String user;
+    private String name;
 
-	public String getUser() {
-		return user;
-	}
+    public User() {
+    }
 
-	public User() {
-	}
-	
-	public void setUser(String user) {
-		this.user = user;
-	}
-	
-	
+    public User(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
+    }
 }
