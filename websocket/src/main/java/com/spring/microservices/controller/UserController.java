@@ -12,7 +12,6 @@ import com.spring.microservices.model.UserResponse;
 @Controller
 public class UserController {
 
-
     @Autowired
     SimpMessagingTemplate template;
 
@@ -20,15 +19,6 @@ public class UserController {
     @SendTo("/topic/user")
     public UserResponse getUser(User user) {
     	System.out.println("TEST");
-    	System.out.println("TEST");
-    	System.out.println("TEST");
-    	System.out.println("TEST");
-    	System.out.println("TEST");
-    	System.out.println(user.getName());
-    	System.out.println(user.getName());
-    	System.out.println(user.getName());
-    	System.out.println(user.getName());
-    	System.out.println(user.getName());
     	System.out.println(user.getName());
     	System.out.println(user.getName());
     	
