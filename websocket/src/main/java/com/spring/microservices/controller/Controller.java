@@ -5,8 +5,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 @org.springframework.stereotype.Controller
 public class Controller {
 	
-	@GetMapping("/test")
+	@GetMapping("/kafka-websocket")
 	public String test() {
-		return "i.html";
+		return "index.html";
 	}
 }
